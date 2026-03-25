@@ -3,7 +3,27 @@
     "allow": [
       "Bash(npm run:*)",
       "WebSearch",
-      "WebFetch(domain:mojim.com)"
+      "WebFetch(domain:mojim.com)",
+      "WebFetch(domain:www.kkbox.com)",
+      "WebFetch(domain:rateyourmusic.com)",
+      "WebFetch(domain:www.douban.com)",
+      "WebFetch(domain:www.kugeci.com)",
+      "WebFetch(domain:open.spotify.com)",
+      "WebFetch(domain:lyricstranslate.com)",
+      "WebFetch(domain:www.mulanci.org)",
+      "WebFetch(domain:www.lrcku.com)",
+      "WebFetch(domain:jspinyin.net)",
+      "WebFetch(domain:www.musico.wiki)",
+      "WebFetch(domain:sonichits.com)",
+      "WebFetch(domain:zh.wikipedia.org)",
+      "WebFetch(domain:lrcshare.com)",
+      "WebFetch(domain:www.appleofmyeye.com.tw)",
+      "WebFetch(domain:baike.baidu.com)",
+      "WebFetch(domain:www.songtell.com)",
+      "WebFetch(domain:p-articles.com)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }
