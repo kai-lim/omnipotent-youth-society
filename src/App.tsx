@@ -117,8 +117,8 @@ export default function App() {
       <header className="header">
         <div className="header-top">
           <div style={{ flex: 1 }}>
-            <div className="header-title">萬能青年旅店</div>
-            <div className="header-subtitle">歌詞本</div>
+            <div className="header-title">🎵 萬能青年旅店</div>
+            <div className="header-subtitle">🎶 歌詞本</div>
           </div>
         </div>
         <div className="search-wrap">
@@ -140,12 +140,12 @@ export default function App() {
 
       <div className="song-list">
         {filtered.length === 0 && (
-          <div className="no-results">找不到「{query}」相關的歌曲或歌詞</div>
+          <div className="no-results">🎤 找不到「{query}」相關的歌曲或歌詞</div>
         )}
 
         {[...grouped.entries()].map(([albumLabel, albumSongs]) => (
           <div key={albumLabel}>
-            {!q && <div className="album-group-label">{albumLabel}</div>}
+            {!q && <div className="album-group-label">💿 {albumLabel}</div>}
             {albumSongs.map(song => (
               <button
                 key={song.id}
